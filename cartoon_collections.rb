@@ -19,10 +19,9 @@ calls.each do |word|
 end
 
 def find_the_cheese(snacks)
-#find executes the block you provide for each element in the array. 
+#find executes the block you provide for each element in the array.
 #If the last expression in the block evaluates to true, the find method
 #returns the value and stops iterating. If it doesn't find anything after iterating through all of the elements, it returns nil.
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.find {|fooditem| cheese_types.include?(fooditem)}
   end
-
