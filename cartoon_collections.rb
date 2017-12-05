@@ -18,7 +18,12 @@ calls.each do |word|
   false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacks)
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  calls.each do |type|
+    if cheese_types .include?type
+      return type
+end
+nil
 end
