@@ -24,7 +24,7 @@ def find_the_cheese(snacks)
   snacks.each do |type|
     if (cheese_types .include?type)== true
       return "#{type}"
-    else 
+    else
       return nil
   end
 end
