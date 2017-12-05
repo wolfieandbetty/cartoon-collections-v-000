@@ -24,4 +24,3 @@ def find_the_cheese(snacks)
   snacks.find {|fooditem| cheese_types.include?(fooditem)}
   end
 end
-
